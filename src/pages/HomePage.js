@@ -3,7 +3,12 @@ import '../styles/HomePage.css';
 export default function HomePage(){
     return(
         <div className='home-page'>
-            <p>hi!udcbnswjcbajkshbjsd</p>
+            <span className='welcome-part-1'>Welcome to my</span>
+            <span className='welcome-brackets'>(</span>
+            <span className='welcome-my-name'>JEWEL CHIN</span>
+            <span className='welcome-brackets'>)</span>
+            <span className='welcome-part-2'>Space</span>
+
         </div>
     );
 }
